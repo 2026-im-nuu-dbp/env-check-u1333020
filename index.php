@@ -24,5 +24,6 @@ $randomMessage = $messages[array_rand($messages)];
 <body>
     <h1>目前時間：<?= date('Y-m-d H:i:s') ?></h1>
     <p>隨機訊息：<?= htmlspecialchars($randomMessage) ?></p>
+    
 </body>
 </html>
